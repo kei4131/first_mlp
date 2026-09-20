@@ -59,7 +59,7 @@ x_test_np = x_test_sorted.detach().numpy()
 最后的拟合函数可以写成这样的形式：
 
 $$
-f(x)=\sum_{i=1}^{8}a_i\operatorname{ReLU}(w_i x+b_i)+c
+f(x)=\sum_{i=1}^{8}a_i \mathrm{ReLU}(w_i x+b_i)+c
 $$
 
 RELU在临界点可以改变拟合线的斜率，多个就可以分多个段了
